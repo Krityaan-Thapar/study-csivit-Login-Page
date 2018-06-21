@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("Pagebg 1330_768.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+}
+@media (max-width: 28.2cm) {
+  body {
+    background-image: url("Pagebg.jpg");
+  }
+}
+.loginBlurBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 560px;
+  padding: 40px 40px 0px;
+  box-sizing: border-box;
+  background-image: url("LoginBox.jpg");
+}
+.loginBlurBox h2 {
+  color: #eee;
+  text-align: center;
+  font-size: 18pt;
+  margin: 15px;
+  padding: 0px 0px 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+}
+.loginBlurBox p {
+  text-align: left;
+  color:#eee;
+  font-weight: thin;
+  margin: 10px;
+  padding: 30px 0px 0px;
+  font-family: "Lato", sans-serif;
+  font-size: 12.33pt;
+}
+.loginBlurBox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginBlurBox input[type="text"],
+.loginBlurBox input[type="password"] {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+}
+input,select,textarea {
+  color: #eee;
+  font-family: "Lato", sans-serif;
+}
+#Login_Button {
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 33%;
+  height: 40px;
+  width: 35%;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  background: rgba(215,66,55,1);
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+#Login_Button:hover {
+  background: rgb(181,61,52);
+}
+.loginBlurBox a {
+  position: absolute;
+  left: 38%;
+  top: 490px;
+  text-decoration: none;
+  color: #eee;
+  font-family: "Lato",sans-serif;
+}
+.loginBlurBox a:hover {
+  text-decoration: underline;
+}
